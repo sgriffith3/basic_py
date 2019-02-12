@@ -1,7 +1,7 @@
 # hidden code blocks?
 ## collapsible markdown?
 
-<details><summary>CLICK ME</summary>
+</details><summary>CLICK ME</summary>
 <p>
 
 #### yes, hidden code blocks!
