@@ -5,7 +5,7 @@ Method | Description
 ---|---
 .capitalize() | Converts first character to a capital letter
 .lower() | Converts all of the characters to lower case letters
-.upper() Converts all of the characters to upper case letters
+.upper() | Converts all of the characters to upper case letters
 .join() | Returns a Concatenated String from a list
 .lstrip() | Removes Leading Characters
 .rstrip() | Removes Trailing Characters
