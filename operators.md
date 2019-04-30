@@ -11,23 +11,23 @@ Relational Operator | Is Read As
 
 
 `and` Truth Table
-Expression 1 | Expression 2 | Result
----|---|---
-True | True | True
-True | False | False
-False | True | False
-False | False | False
+| Expression 1 | Expression 2 | Result|
+|---|---|---|
+|True | True | True|
+|True | False | False|
+|False | True | False|
+|False | False | False|
 
 `or` Truth Table
-Expression 1 | Expression 2 | Result
----|---|---
-True | True | True
-True | False | True
-False | True | True
-False | False | False
+|Expression 1 | Expression 2 | Result|
+|---|---|---|
+|True | True | True|
+|True | False | True|
+|False | True | True|
+|False | False | False|
 
 `not` Truth Table
-Expression 1 | Result
----|---
-True | False
-False | True
+|Expression 1 | Result|
+|---|---|
+|True | False|
+|False | True|
