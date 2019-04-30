@@ -11,6 +11,7 @@ Relational Operator | Is Read As
 
 
 `and` Truth Table
+
 | Expression 1 | Expression 2 | Result|
 |---|---|---|
 |True | True | True|
@@ -19,6 +20,7 @@ Relational Operator | Is Read As
 |False | False | False|
 
 `or` Truth Table
+
 |Expression 1 | Expression 2 | Result|
 |---|---|---|
 |True | True | True|
@@ -27,6 +29,7 @@ Relational Operator | Is Read As
 |False | False | False|
 
 `not` Truth Table
+
 |Expression 1 | Result|
 |---|---|
 |True | False|
