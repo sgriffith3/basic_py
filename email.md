@@ -3,7 +3,7 @@
 ### Lab Objective
 The objective of this lab is to learn how to use the **pynapl** package to send emails. 
 
-The **pynapl** package enables users to send mail in an ad-hoc way using its built in `send_mail` function. This is useful for sending quick emails to a single individual (or for emailing yourself to make sure that you have your correct server settings enabled). Or, if you are attempting to automate sending a bunch of emails (like parsing through a csv file with dozens of name/email address combos to send "personalized" emails), pyapl is going to work well for you as well.
+The **pynapl** package enables users to send mail using its built in `send_mail` function. This is useful for sending quick emails to a single individual (or for emailing yourself to make sure that you have your correct server settings enabled). Or, if you are attempting to automate sending a bunch of emails (like parsing through a csv file with dozens of name/email address combos to send "personalized" emails), pynapl is going to work well for you as well.
 
 The **pynapl** package parameters:
 
@@ -59,7 +59,7 @@ You will have to set your password earlier in the script before using it, and pa
         
     > Add as many name/email combos as you wish. Just don't overuse this tool, or people might start blocking you.
     
-0. Next, create the following python file, named `parsed-email.py`.
+0. Next, create the following python file, named `parsed-email.py`. **USE CAUTION**, this is going to send out your `emails-to-send.csv` file by default. If you do not wish for everybody on your list to receive this list, feel free to switch it for another file.
 
     `$` `vim parsed-email.py`
     
@@ -76,6 +76,9 @@ You will have to set your password earlier in the script before using it, and pa
                 recip = ems1[1]
                 txt = "Hello {}, I am sending you an email with pynapl".format(name)
                 subj = "Hey {}!".format(name)
+                fil = ["send-email.py", "emails-to-send.csv"]
                 pynapl.send_mail("<your-email-goes-here>", [recip], password=passw, subject=subj, text=txt)   
                 
 0. Run your script. It should prompt you for your password one time, then send out your email to every recipient in your csv file, inputting their name to make it feel more personalized.
+
+***Congratulations! You now have the power to send emails using Python!***
