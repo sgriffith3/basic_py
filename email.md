@@ -1,0 +1,53 @@
+# Using Python to Send Email
+
+### Lab Objective
+The objective of this lab is to learn how to use the **pynapl** package to send emails. 
+
+The **pynapl** package enables users to send mail in an ad-hoc way using its built in `send_mail` function. This is useful for sending quick emails to a single individual (or for emailing yourself to make sure that you have your correct server settings enabled). Or, if you are attempting to automate sending a bunch of emails (like parsing through a csv file with dozens of name/email address combos to send "personalized" emails), pyapl is going to work well for you as well.
+
+The **pynapl** package parameters:
+
+|Parameter | Type| Description|
+|---|---| ---|
+|send_from | _str_ |Your email address`*`|
+|send_to | _list of str(s)_| Their email address(es)`*`|
+|password | _str_ | Your email password`*`|
+|text | _str_ | The text/HTML string that you wish to send|
+|subject| _str_ | The subject of your email|
+|files| _list of str(s)_ | The files you wish to send from the local directory
+|server| _str_ | The server you are sending the email from - default 'smtp.gmail.com'|
+|port| _str_ | The secure port you are sending the email from |
+
+
+You will have to set your password earlier in the script before using it, and pass your password as an argument within the function. 
+
+### Procedure
+0. Before you are going to be able to use the pynapl package, you are going to need to have it installed. Download it using pip from within your linux shell.
+
+    `student@pyb-000-bchd:~?` `pip3 install pynapl`
+    
+0. Once that has downloaded, go ahead and open up a new file called `send-email.py`
+
+    `vim send-email.py`
+    
+0. After your shebang line, you are going to need to first import the pynapl package before being able to call it in your code. Copy the following code into your file.
+
+        #!/usr/bin/python3
+        
+        import pynapl
+        import getpass
+        
+        passw = getpass.getpass("What is your email password? ")
+        pynapl.send_mail("<your-email-goes-here>", ["<receiver(s)'s email goes here as a list>"],\
+        password=passw, subject="Sending an email using pyapl", \
+        text="Hello! This is my first time sending an email using pynapl.") 
+        
+    > Before going any further, make sure you place your email in where it says `<your-email-goes-here>`, and put in either your email address or another viable email address in the `<receiver(s)'s email goes here as a list>` section.
+        
+0. Run your script. You will be prompted for your email password. This will be sent to the server to authenicate your session and allow python to send the email.
+
+    `student@pyb-000-bchd:~?` `python3 send-email.py`
+    
+0. Verify that you have sent the email. Once you are sure that it is working, proceed on to the next step.
+
+0. You next are going to need to use
