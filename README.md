@@ -13,3 +13,5 @@ print("hello world!")
 
 </p>
 </details>
+
+This is DAY 2 of Python Basics!
