@@ -1,0 +1,22 @@
+Using The Following Variables:
+
+first_list = []
+first_dict = {"first_name": "Monty", "last_name": "Python", "actions": 
+             ["Scooter", 2, "Moscow"]}
+# first_dict["actions"][0]
+Print out the following sentence:
+"In Monty Python, Eric Idle rode a Scooter 2 Moscow" 
+
+print(f'In {first_dict["first_name"]} {first_dict["last_name"]}, Eric Idle
+      rode a {first_dict["actions"][0]} {first_dict["actions"][1]}
+	  {first_dict["actions"][2]}')
+
+THEN:
+Use a method we discussed yesterday to add the following items to 
+'first_list': "horse", "to", "the Holy Grail".
+# .append() OR .extend()
+THEN:
+Use a method we discussed to update the "actions" in first_dict with 
+the values of first_list.
+Print out the following sentence:
+"In Monty Python, Eric Idle rode a horse to the Holy Grail"
