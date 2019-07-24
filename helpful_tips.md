@@ -4,17 +4,17 @@
 
 ### Topics Include:
 
-*_Python(3)_
+* _Python(3)_
 
-*_Ansible_
+* _Ansible_
 
-*_Ubuntu_
+* _Ubuntu_
 
-*_Vim_
+* _Vim_
 
-*_Tmux_
+* _Tmux_
 
-*_Kubernetes_
+* _Kubernetes_
 
 
 ### Vim
