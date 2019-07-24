@@ -21,6 +21,10 @@
 
 0. In order to auto-generate a shebang line in a new Vim document, you need to associate a file type in your `/etc/vim/vimrc` file. The following code, added to the vimrc file, will allow vim to immediately place the Python3 shebang line at the top of the file.
 
+    `$` `sudo vim /etc/vim/vimrc`
+    
+    Then add the following before the end of the file:
+    
     ```
     autocmd BufNewFile *.py execute 'silent! 1s:.*:#!/usr/bin/env python3'
 
