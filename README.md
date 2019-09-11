@@ -1,17 +1,3 @@
-# hidden code blocks?
-## collapsible markdown?
+# Python Basics
+A compilation of useful resources to teach Python to new Pythoners
 
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, hidden code blocks!
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-This is DAY 2 of Python Basics!
