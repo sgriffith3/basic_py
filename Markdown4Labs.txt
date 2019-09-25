@@ -30,12 +30,12 @@ Check out this link to the text version of [Markdown4Labs](https://github.com/sg
     - Here we go:
     - <kbd>space</kbd> 1 <kbd>space</kbd> 2 <kbd>space</kbd> 3 <kbd>space</kbd> 4 <kbd>space</kbd> 1 <kbd>space</kbd> 2 <kbd>space</kbd> 3 <kbd>space</kbd> 4
         
-        This is a code block now
-        
-        See how it keeps our line spacing
-        even when it wraps?
-        
-        This is good
+            This is a code block now
+
+            See how it keeps our line spacing
+            even when it wraps?
+
+            This is good
         
 0. Yes, you can get fancier with markdown. Don't do that until you have mastered this.
 
