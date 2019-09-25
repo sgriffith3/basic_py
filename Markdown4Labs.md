@@ -6,6 +6,8 @@ A description of what is going to be accomplished or attempted in this lab.
 
 This is a really good place for diagrams, pictures, and definitions.
 
+Check out this link to the text version of [Markdown4Labs](https://github.com/sgriffith3/mycode/blob/master/Markdown4Labs.txt)
+
 ### Procedure
 
 0. Always number with a zero. This allows for auto numbering, so switching steps around isn't a headache.
